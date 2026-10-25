@@ -1,11 +1,193 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Portfólio acadêmico de Isabelle Santana.">
+    <title>Isabelle Santana | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+
+  <header>
+    <nav class="navbar container">
+      <a href="#inicio" class="logo">IS<span>.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-text">
+        <p class="eyebrow">PORTFÓLIO ACADÊMICO</p>
+        <h1>Olá, eu sou<br><span>Isabelle Santana.</span></h1>
+        <p class="hero-description">
+          Estudante de Informática, interessada em tecnologia,
+          programação e desenvolvimento de projetos.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projetos" class="button">Conheça meus projetos ↗</a>
+          <a href="#sobre" class="button button-outline">Sobre mim</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">IS</div>
+        <p class="hero-card-title">Estudante de Informática</p>
+        <p class="muted">IFMS · Campus Nova Andradina</p>
+        <div class="status"><span></span> Sempre aprendendo</div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <p class="eyebrow">UM POUCO SOBRE MIM</p>
+      <h2>Minha trajetória</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            Meu nome é Isabelle da Silva Santana e sou estudante do
+            curso de Informática no Instituto Federal de Mato Grosso
+            do Sul (IFMS), Campus Nova Andradina.
+          </p>
+          <p>
+            Durante minha formação, venho desenvolvendo conhecimentos
+            em programação, desenvolvimento web, banco de dados e redes
+            de computadores. Gosto de aprender na prática, resolver
+            problemas e transformar ideias em projetos.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong>Instituição</strong><br>IFMS — Campus Nova Andradina</p>
+          <p><strong>Curso</strong><br>Informática</p>
+          <p><strong>Área de interesse</strong><br>Desenvolvimento e tecnologia</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="atividades">
+      <div class="container">
+        <p class="eyebrow">MINHA FORMAÇÃO</p>
+        <h2>Atividades acadêmicas</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon">⌨️</span>
+            <h3>Desenvolvimento web</h3>
+            <p>Atividades práticas com HTML, CSS, JavaScript e React para criar páginas e interfaces.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">🗄️</span>
+            <h3>Programação e banco de dados</h3>
+            <p>Exercícios envolvendo lógica de programação, JavaScript, APIs e persistência de dados.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">🌐</span>
+            <h3>Redes de computadores</h3>
+            <p>Estudos sobre redes, endereçamento IP, configuração de dispositivos e Cisco Packet Tracer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <p class="eyebrow">O QUE JÁ DESENVOLVI</p>
+      <h2>Meus projetos</h2>
+      <p class="section-description">Alguns trabalhos realizados durante minha formação acadêmica.</p>
+      <div class="cards">
+        <article class="card project-card">
+          <div class="project-number">01 / WEB</div>
+          <h3>Cartões de NFT</h3>
+          <p>Desenvolvimento de cards responsivos com HTML, CSS, efeitos de hover e animações.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Git</span></div>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver no GitHub ↗</a>
+        </article>
+        <article class="card project-card">
+          <div class="project-number">02 / WEB</div>
+          <h3>Formulário com validação</h3>
+          <p>Formulário com expressões regulares para validar campos de e-mail e telefone.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="text-link" href="https://github.com/isabellesantana-debug/REGEX-LPT" target="_blank" rel="noopener noreferrer">Ver no GitHub ↗</a>
+        </article>
+        <article class="card project-card">
+          <div class="project-number">03 / MOBILE</div>
+          <h3>Lista de tarefas</h3>
+          <p>Aplicativo acadêmico para organizar tarefas, com estudos de React Native e SQLite.</p>
+          <div class="tags"><span>React Native</span><span>Expo</span><span>SQLite</span></div>
+          <a class="text-link" href="https://github.com/isabellennnnnha/projeto-de-dispositivos" target="_blank" rel="noopener noreferrer">Ver no GitHub ↗</a>
+        </article>
+        <article class="card project-card">
+          <div class="project-number">04 / REDES</div>
+          <h3>Rede de escritório</h3>
+          <p>Projeto de redes para simular um escritório de contabilidade com matriz, filial e acesso remoto.</p>
+          <div class="tags"><span>Redes</span><span>IP</span><span>Packet Tracer</span></div>
+          <p class="project-note">Projeto acadêmico</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="eventos">
+      <div class="container">
+        <p class="eyebrow">EXPERIÊNCIAS</p>
+        <h2>Feiras e eventos</h2>
+        <div class="event-card">
+          <div class="event-icon">🎓</div>
+          <div>
+            <h3>Feiras de ciência e tecnologia</h3>
+            <p>
+              Espaço para apresentar pesquisas, compartilhar conhecimentos
+              e registrar projetos desenvolvidos durante a formação.
+            </p>
+            <p class="muted">
+              Preencha com o nome da feira, ano, projeto apresentado
+              e resultado, caso tenha participado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <p class="eyebrow">CONHECIMENTOS</p>
+      <h2>Habilidades e tecnologias</h2>
+      <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>React Native</span>
+        <span>Node.js</span>
+        <span>Git e GitHub</span>
+        <span>SQL</span>
+        <span>Redes de computadores</span>
+      </div>
+      <p class="muted skill-note">As habilidades listadas representam tecnologias estudadas em atividades acadêmicas. Ajuste conforme sua experiência.</p>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-content">
+        <p class="eyebrow">VAMOS NOS CONECTAR?</p>
+        <h2>Entre em contato</h2>
+        <p>Este portfólio reúne minha trajetória e meus projetos acadêmicos.</p>
+        <div class="contact-links">
+          <a href="https://github.com/isabellesantana-debug" target="_blank" rel="noopener noreferrer" class="button">Meu GitHub ↗</a>
+          
+          <a href="mailto:isabelle.santana@estudante.ifms.edu.br" class="button button-outline">Enviar e-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Isabelle Santana · Portfólio acadêmico</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
 </body>
 </html>
